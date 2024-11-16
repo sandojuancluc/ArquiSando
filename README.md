@@ -10,4 +10,14 @@ Dentro de la parte interactiva de la pagina web, se incluyen una serie de formul
 
 **Dentro de la pagina web tambien se incluyen botones que sirven para enviar o resetear la información asi como una lista desordenada**
 
+Para conectar el proyecto con GitHub Pages se debe
+1. Crear un repositorio en GitHub
+2. Copiar el url del repositorio
+3. Añadir el url con el comando **git remote add orign "url"** dentro de VSCode para conectar el proyecto con el repositorio
+4. Utilizar el comando **git push origin main** para subir el codigo de nuestro proyecto al repositorio que creamos
+5. Dentro de nuestro repositorio en GitHub ir a la pestaña **"Settings"**
+6. Despues ir a **"Pages"**
+7. Seleccionar la rama **"main"**
+8. Por último crear el link para nuestra página web
+
 Link de la pagina web: [Arquitectura & Diseño - ArquiSando](https://sandojuancluc.github.io/ArquiSando/)
