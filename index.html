@@ -100,57 +100,225 @@
     <br><br><hr>
    
     <section id="Tu proyecto" class="hero">
+        <center>
             <h2>Tu proyecto</h2>
-            <p style="text-align: justify;">¡Es hora de dar el siguiente paso! En ArquiSandso, entendemos que cada proyecto es único y que cada cliente tiene una visión específica. Es el momento perfecto para que nos cuentes tus ideas, necesidades y sueños, porque estamos aquí para escuchar y transformar esos conceptos en una realidad.
+            <p style="text-align: justify;">¡Es hora de dar el siguiente paso! En ArquiSando, entendemos que cada proyecto es único y que cada cliente tiene una visión específica. Es el momento perfecto para que nos cuentes tus ideas, necesidades y sueños, porque estamos aquí para escuchar y transformar esos conceptos en una realidad.
                 Queremos saber todo sobre tu proyecto: ¿Qué tipo de espacio necesitas crear? ¿Cuál es el estilo que más te inspira? ¿Cuáles son las funcionalidades clave que debe tener tu nuevo espacio? Ya sea que estés construyendo desde cero o renovando un espacio existente, nuestro equipo está listo para acompañarte en cada fase del proceso.
                 Esta es la oportunidad para definir los detalles que harán tu proyecto especial y único. Desde el diseño arquitectónico hasta la ejecución final, nos aseguraremos de que cada decisión esté alineada con tus expectativas, presupuesto y tiempos.
                 No importa si estás soñando con una casa ideal, una oficina moderna o un espacio comercial innovador. Lo que importa es que tú tienes el proyecto, y nosotros tenemos la experiencia y el compromiso para hacerlo realidad.
                 ¡Hablemos hoy mismo sobre lo que necesitas! Juntos, haremos que tu proyecto sea todo lo que imaginas.</p>
             <h5>A continuación, te presentamos una breve encuesta para conocerte mejor a ti y las particularidades que necesitas que realicimenos en tu proyecto</h5>
+        </center>        
     </section>
+    <center>
+        <form>
+            <h5>Datos Personales</h5>
+            <label for="name">Ingresa tu nombre</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Ingresa tu nombre"
+                    name="name"
+                    required
+                >
 
-    <form>
-        <label for="name">Ingresa tu nombre</label>
-            <input
-                type="text"
-                id="name"
-                placeholder="Ingresa tu nombre"
-                name="name"
-                required
-            >
-    <br><br>
-
-        <label for="lastname">Apellido paterno</label>
-            <input
-                type="text"
-                id="lastname"
-                placeholder="Ingresa tu apellido paterno"
-                name="lastname"
-                required
-            >
-    <br><br>
+            <label for="lastname">Apellido paterno</label>
+                <input
+                    type="text"
+                    id="lastname"
+                    placeholder="Ingresa tu apellido paterno"
+                    name="lastname"
+                    required
+                >
+            
+            <label for="surname">Apellido Materno</label>
+                <input
+                    type="text"
+                    id="surname"
+                    placeholder="Ingresa tu apellido materno"
+                    name="surname"
+                    required
+                >
         
-        <label for="lastname">Apellido Materno</label>
-            <input
-                type="text"
-                id="surname"
-                placeholder="Ingresa tu apellido materno"
-                name="surname"
-                required
-            >
-    <br><br>
+            <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    placeholder="Ingresa tu correo electrónico"
+                    name="correo"
+                    required
+                >
+            
+        </form>
+    </center>
     
-        <label for="correo"> Correo electrónico</label>
-            <input
-                type="email"
-                id="correo"
-                placeholder="Ingresa tu correo electrónico"
-                name="correo"
-                required
-            >
-        
-    </form>
+    <br><br><hr>
+    
+    <center>
+        <h5>También necesitamos saber:</h5>
 
+            <label for="ubicacion">Ubicación de tu terreno</label>
+                <input
+                    type="text"
+                    id="ubicacion"
+                    name="ubicacion"
+                    placeholder="Ingresa la ubicación"
+                    required
+                >
+
+            <label for="ancho">Ancho de tu terreno</label>
+                <input
+                    type="number"
+                    id="ancho"
+                    name="ancho"
+                    placeholder="Ingresa el ancho de tu terreno"
+                    required
+                >
+            <label for="largo">Largo de tu terreno</label>
+                <input
+                    type="number"
+                    id="largo"
+                    name="largo"
+                    placeholder="Ingresa el largo de tu terreno"
+                    required
+                >
+
+    </center>
+    <br><br><hr>
+
+    <center>
+        <h5>¡Bien! Ahora es momento de que nos digas que espacios necesitas dentro de tu proyecto</h5>
+        <p>Una casa habitación, de manera general, esta compuesta por los siguiente espacios básicos:</p>
+    </center>
+            <ul>
+                <li>Acceso/entrada</li>
+                <li>Sala</li>
+                <li>Comedor</li>
+                <li>Cocina</li>
+                <li>Recámara principal</li>
+                <li>Recámara secundaria</li>
+                <li>Baño</li>
+                <li>Patio de servicio</li>
+                <li>Estacionamiento</li>
+            </ul>
+    <center>
+        <h5>Además de estos espacios, selecciona aquellos que desees integrar en tu proyecto</h5>
+        
+        
+            <label for="oficina">Oficina</label>
+                <input
+                    type="checkbox"
+                    id="oficina"
+                    name="oficina"
+                >
+            <label for="cuarto_tv">Cuarto de TV o Juegos</label>
+                <input
+                    type="checkbox"
+                    id="cuarto_tv"
+                    name="cuarto_tv"
+                >
+            <label for="cuarto_servicio">Cuarto de servicio</label>
+                <input
+                    type="checkbox"
+                    id="cuarto_servicio"
+                    name="cuarto_servicio"
+                >
+            <label for="Baño_visitas">Baño de Visitas</label>    
+                <input
+                    type="checkbox"
+                    id="baño_visitas"
+                    name="baño_visitas"
+                >
+            <label for="lavanderia">Lavandería</label>
+                <input
+                    type="checkbox"
+                    id="lavanderia"
+                    name="lavanderia"
+                >
+            <label for="terraza">Terraza</label>
+                <input
+                    type="checkbox"
+                    id="terraza"
+                    name="terraza"
+                >
+            <label for="bodega">Bodega</label>
+                <input
+                    type="checkbox"
+                    id="bodega"
+                    name="bodega"
+                >
+            <label for="sala_de_cine">Sala de cine</label>
+                <input
+                    type="checkbox"
+                    id="sala_de_cine"
+                    name="sala_de_cine"
+                >
+            <label for="gimnasio">Gimnasio</label>
+                <input
+                    type="checkbox"
+                    id="biblioteca"
+                    name="biblioteca"
+                >
+            <label for="piscina">Piscina</label>
+                <input
+                    type="checkbox"
+                    id="piscina"
+                    name="piscina"
+                >
+            <label for="cuarto_de_hobbies">Cuarto de hobbies</label>
+                <input
+                    type="checkbox"
+                    id="cuarto_de_hobbies"
+                    name="cuarto_de_hobbies"
+                >
+            <label for="bar">Área de bar</label>
+                <input
+                    type="checkbox"
+                    id="bar"
+                    name="bar"
+                >
+    </center>
     
+    <br><br><hr>
+    
+    <center>
+        <h5>Sabemos que cada de uno de ustedes tiene diferentes necesidades y diferentes posibilidades</h5>
+        <p>Es por eso que nos adaptamos a tu presupuesto. A continuación, selecciona el rango de precio, acorde a tus necesidades, y nuestro sistema automatizado te dirá las posibilidades de manera inmediata</p>
+
+            <label for="presupuesto">Selecciona tu presupuesto (MXN)</label>
+            <select id="presupuesto" name="presupuesto" required>
+                <option value="" selected disabled hidden>Presupuesto</option>
+                <option value="500,000_600,000">$500,000 a $600,000</option>
+                <option value="600,000_700,000">$600,000 a $700,000</option>
+                <option value="700,000_800,000">$700,000 a $800,000</option>
+                <option value="900,000_1,000,000">$900,000 a 1,000,000</option>
+                <option value="1,000,000_2,000,000">$1,000,000 a $2,000,000</option>
+                <option value="2,000,000_3,000,000">$2,000,000 a 3,000,000</option>
+                <option value="4,000,000_5,000,000">$4,000,000 a $5,000,000</option>
+                <option value="mas_de_5,000,000">mas de $5,000,000</option>
+            </select>
+    </center>
+    
+    <br><br><hr>
+
+    <center>
+        <h5>¡Ya casi terminamos!</h5>
+        <p>Si lo crees necesario, en el siguiente cuadro de texto, puedes describirnos como es que te imaginas cada uno de esos
+            espacios dentro de tu proyecto, cuéntanos cada detalle.
+        </p>
+
+        <textarea 
+            id="descripcion" 
+            name="descripcion" 
+            rows="10" 
+            cols="60" 
+            placeholder="Escribe aqui lo que deseas"
+            >
+        </textarea>
+    <br><br>
+        <button type="submit">Enviar información</button>
+        <button type="reset">Resetear información</button>
+
+    </center>
 </body>
 </html>
